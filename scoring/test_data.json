@@ -1,0 +1,152 @@
+{
+  "buildings": [
+    {
+      "id": "B001",
+      "address": "Saarbrücker Straße 12, 66111 Saarbrücken",
+      "city": "Saarbrücken",
+      "roof_area": 85.0,
+      "orientation": "S",
+      "shading": "gering",
+      "roof_condition": "gut",
+      "building_type": "Einfamilienhaus",
+      "property": {
+        "owner_status": "Eigentümer",
+        "lot_size": 450,
+        "electricity_consumption": 4200,
+        "balcony": "ja"
+      }
+    },
+    {
+      "id": "B002",
+      "address": "Saarbrücker Straße 14, 66111 Saarbrücken",
+      "city": "Saarbrücken",
+      "roof_area": 92.0,
+      "orientation": "SO",
+      "shading": "keine",
+      "roof_condition": "neuwertig",
+      "building_type": "Einfamilienhaus",
+      "property": {
+        "owner_status": "Eigentümer",
+        "lot_size": 520,
+        "electricity_consumption": 5100,
+        "balcony": "groß"
+      }
+    },
+    {
+      "id": "B003",
+      "address": "Saarbrücker Straße 16, 66111 Saarbrücken",
+      "city": "Saarbrücken",
+      "roof_area": 78.0,
+      "orientation": "S",
+      "shading": "mittel",
+      "roof_condition": "mittel",
+      "building_type": "Reihenhaus",
+      "property": {
+        "owner_status": "Eigentümer",
+        "lot_size": 280,
+        "electricity_consumption": 3200,
+        "balcony": "klein"
+      }
+    },
+    {
+      "id": "B004",
+      "address": "Bliesgauweg 5, 66424 Homburg",
+      "city": "Homburg",
+      "roof_area": 110.0,
+      "orientation": "SW",
+      "shading": "gering",
+      "roof_condition": "gut",
+      "building_type": "Zweifamilienhaus",
+      "property": {
+        "owner_status": "Eigentümer",
+        "lot_size": 680,
+        "electricity_consumption": 6200,
+        "balcony": "ja"
+      }
+    },
+    {
+      "id": "B005",
+      "address": "Bliesgauweg 7, 66424 Homburg",
+      "city": "Homburg",
+      "roof_area": 55.0,
+      "orientation": "O",
+      "shading": "stark",
+      "roof_condition": "sanierungsbedürftig",
+      "building_type": "Einfamilienhaus",
+      "property": {
+        "owner_status": "Eigentümer",
+        "lot_size": 350,
+        "electricity_consumption": 2800,
+        "balcony": "nein"
+      }
+    },
+    {
+      "id": "B006",
+      "address": "Bliesgauweg 9, 66424 Homburg",
+      "city": "Homburg",
+      "roof_area": 35.0,
+      "orientation": "N",
+      "shading": "voll",
+      "roof_condition": "schlecht",
+      "building_type": "Mehrfamilienhaus",
+      "property": {
+        "owner_status": "Mieter",
+        "lot_size": 150,
+        "electricity_consumption": 1800,
+        "balcony": "ja"
+      }
+    },
+    {
+      "id": "B007",
+      "address": "Trierer Straße 22, 66606 St. Wendel",
+      "city": "St. Wendel",
+      "roof_area": 140.0,
+      "orientation": "S",
+      "shading": "keine",
+      "roof_condition": "neuwertig",
+      "building_type": "Einfamilienhaus",
+      "property": {
+        "owner_status": "Eigentümer",
+        "lot_size": 800,
+        "electricity_consumption": 7000,
+        "balcony": "ja"
+      }
+    },
+    {
+      "id": "B008",
+      "address": "Trierer Straße 24, 66606 St. Wendel",
+      "city": "St. Wendel",
+      "roof_area": 65.0,
+      "orientation": "O",
+      "shading": "gering",
+      "roof_condition": "gut",
+      "building_type": "Doppelhaushälfte",
+      "property": {
+        "owner_status": "Eigentümer",
+        "lot_size": 400,
+        "electricity_consumption": 3500,
+        "balcony": "ja"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "name": "Saarbrücken",
+      "ownership_rate": 0.45,
+      "density": 300,
+      "purchasing_power": 102
+    },
+    {
+      "name": "Homburg",
+      "ownership_rate": 0.55,
+      "density": 200,
+      "purchasing_power": 108
+    },
+    {
+      "name": "St. Wendel",
+      "ownership_rate": 0.62,
+      "density": 120,
+      "purchasing_power": 98
+    }
+  ]
+}
